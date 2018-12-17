@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/Desert.jpg);
+  font-family: sans-serif;
+}
+.loginbox {
+  width: 320px;
+  height: 420px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+.avatar{
+  border-radius: 50%;
+  width: 40%;
+  position: absolute;
+  top: -50px;
+  left: 90px;
+}
+.input-section{
+  position: absolute;
+  top: 130px;
+}
+ h1{
+
+  font-size: 22px;
+  margin: 90px 0 0 0;
+  padding: 0 0 20px;
+  text-align: center;
+
+}
+.loginbox p {
+  margin: 0 20px 0 30px;
+  font-weight: bold;
+
+  padding: 0;
+}
+.loginbox input{
+  width: 80%;
+
+  margin: 0 20px 20px 30px;
+}
+.loginbox input[type="text"], input[type="password"]{
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  height: 40px;
+  width: 80%;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+
+}
+
+.loginbox input[type="submit"] {
+  font-size: 20px;
+  color: #fff;
+  background-color: #cd853f;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  outline: none;
+
+}
+.loginbox input[type="submit"]:hover{
+  background-color: #87ceeb;
+  color: #000;
+}
+.loginbox a{
+  text-decoration: none;
+  font-size: 12px;
+   margin: 20px;
+  color: darkgrey;
+}
+.loginbox a:hover{
+  color: #87ceeb;
+}
